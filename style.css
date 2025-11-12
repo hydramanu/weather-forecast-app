@@ -1,0 +1,53 @@
+/* Custom styles for dropdown */
+#recentCities {
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10; /* Ensure dropdown appears above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#recentCities div {
+    padding: 8px;
+    cursor: pointer; 
+    border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+    transition: background-color 0.2s ease; /* Smooth hover transition */
+}
+
+#recentCities div:hover {
+    background-color: #dbeafe; /* Tailwind's blue-100 for better hover effect */
+}
+
+#recentCities div:last-child {
+    border-bottom: none;
+}
+
+/* Optional: Add a subtle click effect */
+#recentCities div:active {
+    background-color: #bfdbfe; /* Tailwind's blue-200 for click feedback */
+}/* Custom styles for dropdown */
+#recentCities {
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10; /* Ensure dropdown appears above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#recentCities div {
+    padding: 8px;
+    cursor: pointer; 
+    border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+    transition: background-color 0.2s ease; /* Smooth hover transition */
+}
+
+#recentCities div:hover {
+    background-color: #dbeafe; /* Tailwind's blue-100 for better hover effect */
+}
+
+#recentCities div:last-child {
+    border-bottom: none;
+}
+
+/* Optional: Add a subtle click effect */
+#recentCities div:active {
+    background-color: #bfdbfe; /* Tailwind's blue-200 for click feedback */
+}
